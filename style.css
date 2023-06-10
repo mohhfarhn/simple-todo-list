@@ -232,3 +232,10 @@ input:checked ~ .bubble::after {
   text-decoration: line-through;
   color: var(--grey);
 }
+
+@media screen and (max-width:768px){
+  .todo-item .todo-content input{
+    width: 90%;
+    overflow: hidden;
+  }
+}
